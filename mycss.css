@@ -1,0 +1,14 @@
+body{margin: 0;padding: 0;height: 100%;}
+.container{font-family: Arial;padding: 0;margin: 0 auto;}
+.header{color: navy;font-weight: bold;padding-top: 0;}
+.nav{background-color:rgb(166, 158, 236);width: 100%;clear: both; }
+.nav td{padding-right: 13.5em;}
+.left{float: left; margin:25px 0 0 0;width: 10%;}
+.left td{padding-bottom: 10px;}
+.left a:hover{color: rgb(252, 66, 97);}
+.middle{float:left;width:27%;margin: 10px 0 0 100px;}
+
+
+.right{width:30%;float:right;background-color: yellow;}
+.right img{width: 50%; display: block;}
+.right input{margin:0 0 0 40px;}

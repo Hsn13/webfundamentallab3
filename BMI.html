@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="mycss.css" rel="stylesheet" type="text/css"/>
+    <script src="Script.js" defer></script>
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>National Health Institute: Body Mass Index</h1>
+        </div>
+        <div class="nav">
+            <table>
+                <tr>
+                    <td>Public</td>
+                    <td>Health Professionals</td>
+                    <td>Researchers</td>
+                    <td>Clinical Trials</td>
+                    <td>News & Resources</td>
+                    <td>About NHI</td>
+                </tr>
+            </table>
+        </div>
+        <div class="left">
+            <table>
+                <tr><td><a href="#">Assessing Your Weight & Health Risk</a></td></tr>
+                <tr><td><a href="#">Control Your Weight</a></td></tr>
+                <tr><td><a href="#">Eat Right</a></td></tr>
+                <tr><td><a href="#">Healthy Weight Tools</a></td></tr>
+            </table>
+        </div>
+        <div class="middle">
+            <h2>BMI</h2>
+            <p>BMI is a useful measure of overweight and obesity. It is calculated from
+                your height and weight. BMI is an estimate of body fat and a good gauge 
+                of your risk for diseases that can occur with more body fat.
+                The higher your BMI, the higher your risk for certain diseases such as 
+                heart disease, high blood pressure, type 2 diabetes, gallstones, breathing 
+                problems and certain cancers. Although BMI can be used for most men and women,
+                it does have some limits: it may overestimate body fat in athletes and others
+                who have a muscular build. It may underestimate body fat in older persons
+                and others who have lost muscle. Use the BMI Calculator ot BMI tables
+                to estimate your body fat. The BMI score means the following:</p>
+                <ul>
+                    <li>Below 18.5: Underweight</li>
+                    <li>18.5-24.9: Normal</li>
+                    <li>25.0-29.9: Overweight</li>
+                    <li>30.0 and above: Obese</li>
+                </ul>
+                
+                
+                <h2>Waist Circumference</h2>
+                <p>Measuring waist circumference helps screen for possible health risks
+                    that come with overweight and obesity. If most of your fat is around your
+                    waist rather than at your hips, you are at a higher risk for heart disease
+                    and type 2 diabetes. The risk goes up with a waist size that is greater 
+                    than 35 inches for women or greater than 40 inches for men. 
+                    To correctly measure your waist, stand and place a tape measure around 
+                    your middle, just above your hipbones. Measure your waist just after
+                    you breathe out.</p><!-- Your BMI description goes here -->
+        </div>
+        <div class="right">
+            <img src="HealthweightImage.png">
+            <p>Body Mass Calculator (Metric) <a href="#">US/UK</a></p>
+            <label for="HeightInput">Height (m): </label>
+            <input type="text" id="HeightInput"><br /><br />
+            <label for="WeightInput">Weight (KG): </label>
+            <input type="text" id="WeightInput"><br /><br />
+            <input type="button" value="Calculate" onclick="calculateAndDisplayBMI()"><br /><br />
+            <label id="BMILabel">Your BMI index is: </label><br /><br />
+            <label id="CategoryLabel">Your Weight Category is: </label><br /><br /><br />
+        </div>
+    </div>
+</body>
+</html>
